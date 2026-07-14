@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Profile</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body{
+            background-color:#f8f9fa;
+        }
+
+        .profile-img{
+            width:150px;
+            height:150px;
+            border-radius:50%;
+            object-fit:cover;
+            margin:auto;
+            display:block;
+        }
+
+        footer{
+            background:#212529;
+            color:white;
+            text-align:center;
+            padding:15px;
+            margin-top:30px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Student Profile</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="container my-5">
+
+    <div class="row justify-content-center">
+
+        <!-- Student Card -->
+        <div class="col-lg-5 col-md-8">
+
+            <div class="card shadow">
+
+                <div class="card-body text-center">
+
+                    <img src="photo1.jpg"
+                        class="profile-img"
+                        alt="Student Photo">
+
+                    <h3 class="mt-3">Nammi Tarun Kumar</h3>
+
+                    <p><strong>Roll Number:</strong> A24126511033</p>
+
+                    <p><strong>Branch:</strong>INFORMATION TECHNOLOGY</p>
+
+                    <p><strong>Email:</strong> tharunkumarnammi05@gmail.com</p>
+
+                    <button class="btn btn-primary">
+                        View Profile
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Academic Details -->
+    <div class="row mt-5">
+
+        <div class="col-12">
+
+            <h3 class="text-center mb-3">
+                Academic Details
+            </h3>
+
+            <div class="table-responsive">
+
+                <table class="table table-bordered table-striped table-hover">
+
+                    <thead class="table-dark">
+
+                        <tr>
+                            <th>Subject Name</th>
+                            <th>Internal Marks</th>
+                            <th>External Marks</th>
+                            <th>Total Marks</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td>Data Structures</td>
+                            <td>28</td>
+                            <td>62</td>
+                            <td>90</td>
+                        </tr>
+
+                        <tr>
+                            <td>Database Management System</td>
+                            <td>27</td>
+                            <td>60</td>
+                            <td>87</td>
+                        </tr>
+
+                        <tr>
+                            <td>Operating Systems</td>
+                            <td>29</td>
+                            <td>63</td>
+                            <td>92</td>
+                        </tr>
+
+                        <tr>
+                            <td>Computer Networks</td>
+                            <td>26</td>
+                            <td>61</td>
+                            <td>87</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    <h5>ANITS College</h5>
+    <p>&copy; 2026 Student Profile. All Rights Reserved.</p>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
